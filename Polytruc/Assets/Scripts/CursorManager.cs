@@ -6,38 +6,48 @@ using UnityEngine;
 public class CursorManager : MonoBehaviour
 {
   public LayerMask moveToMask; // Masque pour détecter les objets cliquables
+  public LayerMask speakToMask; // Masque pour détecter les objets cliquables
+
+
   [SerializeField] private Texture2D defaultCursorTexture;
   [SerializeField] private Texture2D moveToCursorTexture;
+    [SerializeField] private Texture2D speakToCursorTexture;
   [SerializeField] private Texture2D turnLeftCursorTexture;
   [SerializeField] private Texture2D turnRightCursorTexture;
 
-  private Vector2 cursorHotspot;
+  private Vector2 cursorHotspotCenter;
+  private Vector2 cursorHotspotTopLeft;
 
   void Start()
   {
-    cursorHotspot = new Vector2(defaultCursorTexture.width / 2, defaultCursorTexture.height / 2);
-    Cursor.SetCursor(defaultCursorTexture, cursorHotspot, CursorMode.Auto);
+    cursorHotspotCenter = new Vector2(defaultCursorTexture.width / 2, defaultCursorTexture.height / 2);
+    cursorHotspotTopLeft = new Vector2(0, 0);
+
+    Cursor.SetCursor(defaultCursorTexture, cursorHotspotCenter, CursorMode.Auto);
 
   }
 
   void Update()
   {
 
-
-    Cursor.SetCursor(defaultCursorTexture, cursorHotspot, CursorMode.Auto);
+    Cursor.SetCursor(defaultCursorTexture, cursorHotspotTopLeft, CursorMode.Auto);
 
     if (Functions.IsMouseOnLeft())
     {
-      Cursor.SetCursor(turnLeftCursorTexture, cursorHotspot, CursorMode.Auto);
+      Cursor.SetCursor(turnLeftCursorTexture, cursorHotspotCenter, CursorMode.Auto);
     }
     else if (Functions.IsMouseOnRight())
     {
       // Clic dans la zone droite
-      Cursor.SetCursor(turnRightCursorTexture, cursorHotspot, CursorMode.Auto);
+      Cursor.SetCursor(turnRightCursorTexture, cursorHotspotCenter, CursorMode.Auto);
     }
-    if (Functions.IsMouseOverObject(moveToMask, out RaycastHit hit))
+    else if (Functions.IsMouseOverObject(moveToMask, out RaycastHit hit))
     {
-      Cursor.SetCursor(moveToCursorTexture, cursorHotspot, CursorMode.Auto);
+      Cursor.SetCursor(moveToCursorTexture, cursorHotspotCenter, CursorMode.Auto);
+    }
+    else if (Functions.IsMouseOverObject(speakToMask, out RaycastHit hit2))
+    {
+      Cursor.SetCursor(speakToCursorTexture, cursorHotspotCenter, CursorMode.Auto);
     }
   }
 }

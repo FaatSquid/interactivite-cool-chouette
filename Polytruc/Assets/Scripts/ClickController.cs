@@ -6,6 +6,7 @@ public class PointClickCamera : MonoBehaviour
 {
     public Transform cameraTarget; // Objet auquel la caméra est attachée
     public LayerMask moveToMask; // Masque pour détecter les objets cliquables
+    public LayerMask speakToMask;
     public float moveSpeed = 5f; // Vitesse de déplacement
     public float tiltSpeed = 5f; // Vitesse de l'inclinaison
     public float panSpeed = 5f; // Vitesse du panoramique
@@ -19,6 +20,8 @@ public class PointClickCamera : MonoBehaviour
 
     private static readonly float[] ANGLES = { 0, 90, 180, -90 };
     private int current_angle_index = 0;
+    private BasicMovedToEvent movedToEvent = null;
+   
 
     private void rotate_left()
     {
@@ -59,14 +62,23 @@ public class PointClickCamera : MonoBehaviour
         // Si la rotation n'a pas été déclenchée, vérifier le déplacement
         if (!rotating && Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Functions.IsMouseOverObject(moveToMask, out hit))
             {
+                if(movedToEvent){
+                    movedToEvent.DisableSpeakToObjects(); // Désactiver les objets speakTo
+                }
+
                 targetPosition = hit.transform.position; // Déplacer vers l'objet cliqué
+                movedToEvent = hit.transform.GetComponent<BasicMovedToEvent>();
                 isMoving = true;
             }
+            else if (Functions.IsMouseOverObject(speakToMask, out hit))
+            {
+                hit.transform.GetComponent<ClickedOnEvent>().OnClick();
+            }
         }
+        
 
         if (isMoving)
         {
@@ -74,6 +86,10 @@ public class PointClickCamera : MonoBehaviour
             if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
             {
                 isMoving = false; // Arrêter le mouvement une fois arrivé
+                if (movedToEvent != null)
+                {
+                    movedToEvent.OnClick();
+                }
             }
         }
 
