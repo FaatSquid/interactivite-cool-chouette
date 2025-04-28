@@ -9,67 +9,43 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Polyptyque.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Polyptyque" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="97889876-EAF7-48E3-9DF3-24F139EB4B0F" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Personnage" color="purple"></tw-tag><tw-tag name="Porte" color="green"></tw-tag><tw-tag name="Objet" color="orange"></tw-tag><tw-passagedata pid="1" name="Prologue" tags="" position="800,325" size="100,100">La lumière a disparu.
+<tw-storydata name="Polyptyque" startnode="25" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="97889876-EAF7-48E3-9DF3-24F139EB4B0F" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Personnage" color="purple"></tw-tag><tw-tag name="Porte" color="green"></tw-tag><tw-tag name="Objet" color="orange"></tw-tag><tw-passagedata pid="1" name="&quot;Juste là&quot;" tags="Déni Personnage" position="1625,1600" size="100,100">D&#39;un geste souple, une clé est sorti de la poche du short trop court de votre interlocuteur. 
 
-Les ténèbres vous engouffrent et une sensation de légèreté prend votre corps. Vous vous sentez transporté vers un autre endroit, bien différent du monde dont vous avez eu l&#39;habitude jusqu&#39;à maintenant et pourtant vous êtes pris d&#39;une étrange sensation de familiarité.
+&quot;Prenez là, je n&#39;en ai pas besoin. Je n&#39;ai aucune raison de sortir.&quot;
 
-[[Introduction]]</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="" position="800,450" size="100,100">Vous êtes au milieu d&#39;une salle sombre. Des inscriptions cryptiques jauchent les murs. Celles-ci semblent essayer de communiquer avec vous, mais vous ne les reconnaissez pas.
+(text-style:&quot;emboss&quot;)[Vous recevez une clé!] (set: $cléDéni to true)
 
-Une seule lumière subsiste, émanant d&#39;une silhouette vous regardant d&#39;un sourire bienveillant, amusé par votre air de perdition.
+Vous n&#39;auriez jamais imaginé que cela soit aussi simple. Vous sentez un incroyable soulagement. Vous lâchez un &quot;merci&quot; emprunt de confusion mêlé à l&#39;espoir d&#39;enfin pouvoir sortir de cet endroit dont l&#39;atmosphère pesante commençait à se faire ressentir.
 
-À côté d&#39;elle se trouve une gigantesque porte. Elle vous attire, mais vous sentez un effroi à sa simple vue. Elle semble faite de vide et vous sentez que derrière elle, toute lumière est absorbée.
-
-[[Aborder la silhouette|La mort]]
-[[S&#39;approcher de la porte|Porte Intro]]</tw-passagedata><tw-passagedata pid="3" name="La mort" tags="Personnage Intro" position="800,575" size="100,100">De plus près, vous remarquez que la lumière que vous distinguiez semble parasitée par de petites particules noires semblable à la neige d&#39;une télévision sans signal. Impossible de remarquer le moindre trait en dehors de ce sourire. Son corps entier semble être un portail vers un endroit qui vous est étranger, complètement illuminé et impossible à rapporter à quelque chose de reconnaissable.
-
-La silhouette semble ravie de vous voir approcher.
-
-[[Elle vous adresse la parole]]</tw-passagedata><tw-passagedata pid="4" name="Porte Intro" tags="Porte Intro" position="925,575" size="100,100">La porte fait au moins 10 tiers de votre propre taille. Vous ne savez pas comment ce nombre vous est venu à l&#39;esprit cependant.
-
-[[Entrer|Entrer Intro]]
-</tw-passagedata><tw-passagedata pid="5" name="?????" tags="Personnage Intro" position="800,700" size="100,100">&quot;Oh pardon, je me suis emporté... :P
+[[Vous retournez au centre de la pièce|Déni]]</tw-passagedata><tw-passagedata pid="2" name="?????" tags="Personnage Intro" position="800,700" size="100,100">&quot;Oh pardon, je me suis emporté... :P
 
 Salut ! Comment tu te sens ? Tu m&#39;as l&#39;air perdu, je peux t&#39;aider ?&quot;
 
 [[J&#39;ai connu de meilleurs jours...]]
 [[Où suis-je ?]]
-[[Qui es-tu ?]]</tw-passagedata><tw-passagedata pid="6" name="J&#39;ai connu de meilleurs jours..." tags="Personnage Intro" position="800,850" size="100,100">&quot;Jours, mois, heures, minutes, secondes.... Cela n&#39;a pas d&#39;importance ici. Les meilleurs moments sont ceux qui se trouvent hors du temps. 
+[[Qui es-tu ?]]</tw-passagedata><tw-passagedata pid="3" name="Ah merci ! Je comprends mieux." tags="Déni Personnage" position="1500,1100" size="100,100">Vous semblez comprendre de moins en moins, mais vous pensez qu&#39;il serait mieux d&#39;éviter de tenir tête à un tel excès de déraison sous risque d&#39;être contaminé par celui-ci.
 
-N&#39;essaie pas de compter le temps que tu passeras dans ces couloirs, tu deviendrais fou.&quot;
+&quot;Si vous le souhaitez, vous pouvez vous asseoir avec moi ! En plus il me reste quelques gouttes que je me ferais un plaisir de partager avec vous !!!&quot;
 
-[[Où suis-je ?]] </tw-passagedata><tw-passagedata pid="7" name="Où suis-je ?" tags="Personnage Intro" position="975,750" size="100,100">&quot;Chez toi ! Mais c&#39;est normal si tu ne reconnais pas, la déco a été... refaite...
+[[Très volontiers !]]
 
-Peut-être que ça te reviendra, mais il n&#39;y a que toi qui puisse y faire quelque chose.
+[[C&#39;est gentil, mais non merci.]]</tw-passagedata><tw-passagedata pid="4" name="Arbre..." tags="Déni Objet" position="1575,725" size="100,100">Des bûches de bois venant vraisemblablement d&#39;arbres différents, tous morts depuis bien longtemps, sont empilées les unes sur les autres. Au sommet se trouve un pot de fleur duquel s&#39;échappe une longue tige verte suivie de quelques pétales.
 
-Bon voyage ^^&quot;
+Cela ressemble à une tentative de reproduire un arbre. Vous ne pouvez pas vous empêcher de vous sentir ému à cette idée.
 
-[[Merci....|Introduction]]</tw-passagedata><tw-passagedata pid="8" name="Qui es-tu ?" tags="Personnage Intro" position="675,825" size="100,100">&quot;Hmmm........ :|&quot;
+[[Revenir en arrière|Se tourner]]</tw-passagedata><tw-passagedata pid="5" name="C&#39;est gentil, mais non merci." tags="Déni Personnage" position="1500,1225" size="100,100">&quot;Je comprends, c&#39;est pas pour tout le monde...&quot;
 
-[[Où suis-je ?]] </tw-passagedata><tw-passagedata pid="9" name="Entrer Intro" tags="Porte Intro" position="1100,575" size="100,100">Vous poussez la lourde porte et sentez que quelque chose se débloque en vous. Vous êtes absorbé par les ténèbres. La porte claque bruyamment derrière vous.
-
-À mesure que vous vous habituez à l&#39;obscurité, vous distinguez un escalier descendant dont la fin est indiscernable.
-
-[[Descendre|Descendre1]]</tw-passagedata><tw-passagedata pid="10" name="Descendre1" tags="" position="1100,700" size="100,100">Vous descendez. 
-
-[[Descendre|Descendre2]]</tw-passagedata><tw-passagedata pid="11" name="Descendre2" tags="" position="1100,825" size="100,100">Vous descendez.
-
-[[Descendre|Descendre3]]</tw-passagedata><tw-passagedata pid="12" name="Descendre3" tags="" position="1100,950" size="100,100">Vous descendez. Le chemin semble s&#39;être effacé derrière vous.
-
-[[Descendre|Couloir]]
-</tw-passagedata><tw-passagedata pid="13" name="Couloir" tags="" position="1100,1075" size="100,100">Vous atteignez la fin des escaliers.
+[[Est-ce qu&#39;il y a une sortie ?]]</tw-passagedata><tw-passagedata pid="6" name="Couloir" tags="" position="1100,1075" size="100,100">Vous atteignez la fin des escaliers.
 
 Face à vous se trouve un couloir tournant à droite d&#39;où une lumière s&#39;émane.
 
-[[Suivre la lumière]]</tw-passagedata><tw-passagedata pid="14" name="Suivre la lumière" tags="" position="1100,1200" size="100,100">(set: $cléDéni to false)
-L&#39;environnement dans lequel vous êtes se définit. Vous êtes entouré de murs de béton en décrépitude, salis par la moissisure.
+[[Suivre la lumière]]</tw-passagedata><tw-passagedata pid="7" name="Descendre1" tags="" position="1100,700" size="100,100">Vous descendez. 
 
-Vous suivez la lumière jusqu&#39;à arriver devant une salle dont la porte est ouverte. De celle-ci provient une lumière aveuglante en comparaison avec l&#39;obscurité dans lequel vous avez navigué jusqu&#39;à présent.
+[[Descendre|Descendre2]]</tw-passagedata><tw-passagedata pid="8" name="Descendre2" tags="" position="1100,825" size="100,100">Vous descendez.
 
-Vous percevez un assourdissant bruit de ventilateur et un bourdonnement électrique à mesure que vous vous approchez.
+[[Descendre|Descendre3]]</tw-passagedata><tw-passagedata pid="9" name="Descendre3" tags="" position="1100,950" size="100,100">Vous descendez. Le chemin semble s&#39;être effacé derrière vous.
 
-[[Entrer dans la pièce|Déni]]</tw-passagedata><tw-passagedata pid="15" name="Elle vous adresse la parole" tags="Personnage Intro" position="675,700" size="100,100">(text-style:&quot;smear&quot;,&quot;tall&quot;,&quot;shudder&quot;)[&quot;L&#39;état intermédiaire de ton âme semble vacillant devant la grandeur de l&#39;esprit. Ta divinité a été abandonnée au dépens de tes missions terrestres.&quot;]
-
-[[?????]]</tw-passagedata><tw-passagedata pid="16" name="Déni" tags="Déni" position="1250,450" size="100,100">Vous êtes au centre d&#39;une pièce faite de bêton. En face de vous se trouve une porte. 
+[[Descendre|Couloir]]</tw-passagedata><tw-passagedata pid="10" name="Déni" tags="Déni" position="1250,450" size="100,100">Vous êtes au centre d&#39;une pièce faite de bêton. En face de vous se trouve une porte. 
 
 [[L&#39;ouvrir]]
 
@@ -79,15 +55,75 @@ Une lumière puissante couvre la partie droite de votre visage. Vous êtes éblo
 
 À votre gauche, vous entendez quelques soupirs se mêlant au son d&#39;un ventilateur.
 
-[[Se tourner]]
-</tw-passagedata><tw-passagedata pid="17" name="L&#39;ouvrir" tags="Déni Porte" position="1250,575" size="100,100">(if: $cléDéni)[La porte [[s&#39;ouvre|Forêt]]]
+[[Se tourner]]</tw-passagedata><tw-passagedata pid="11" name="Elle vous adresse la parole" tags="Personnage Intro" position="675,700" size="100,100">(text-style:&quot;smear&quot;,&quot;tall&quot;,&quot;shudder&quot;)[&quot;L&#39;état intermédiaire de ton âme semble vacillant devant la grandeur de l&#39;esprit. Ta divinité a été abandonnée au dépens de tes missions terrestres.&quot;]
 
+[[?????]]</tw-passagedata><tw-passagedata pid="12" name="Entrer Intro" tags="Porte Intro" position="1100,575" size="100,100">Vous poussez la lourde porte et sentez que quelque chose se débloque en vous. Vous êtes absorbé par les ténèbres. La porte claque bruyamment derrière vous.
 
-(unless: $cléDéni)[Vous avez beau essayer de toutes vos forces, la porte est verrouillée.]</tw-passagedata><tw-passagedata pid="18" name="Forêt" tags="" position="1250,700" size="100,100"></tw-passagedata><tw-passagedata pid="19" name="Inspecter la lumière" tags="Déni Objet" position="1375,575" size="100,100">La puissance de la lumière et sa chaleur vous rappelle un brûlant soleil. Quand était la dernier fois que vous l&#39;avez resenti ? La mémoire vous échappe...
+À mesure que vous vous habituez à l&#39;obscurité, vous distinguez un escalier descendant dont la fin est indiscernable.
+
+[[Descendre|Descendre1]]</tw-passagedata><tw-passagedata pid="13" name="Est-ce qu&#39;il y a une sortie ?" tags="Déni Personnage" position="1500,1350" size="100,100">&quot;Évidemment !!! Vous n&#39;avez pas vu la porte ?
+
+Personnellement, je ne quitterais cet endroit pour rien au monde, mais vous êtes peut-être un peu trop *citadin* pour apprécier.... Sans vouloir vous offusquez...&quot;
+
+À ce moment, vous essayer de vous souvenir de si vous êtes effectivement quelqu&#39;un de trop *citadin*. Vous avez énormément de mal à répondre à vos propres questions. Vos souvenirs ne ressemblent qu&#39;à un brouillard froid dans lequel se cachent des réponses. Mais celles-ci semblent s&#39;éloigner à mesure que vous vous approchez d&#39;elles.
+
+[[Vous revenez à vos sens et répondez.]]</tw-passagedata><tw-passagedata pid="14" name="Forêt" tags="" position="1600,325" size="100,100"></tw-passagedata><tw-passagedata pid="15" name="Inspecter la lumière" tags="Déni Objet" position="1425,475" size="100,100">La puissance de la lumière et sa chaleur vous rappelle un brûlant soleil. Quand était la dernier fois que vous l&#39;avez resenti ? La mémoire vous échappe...
 
 Vous arrivez à distinguer progressivement un spotlight de cinéma. Il a été maladroitement couvert de peinture jaune.
 
-[[Retourner au centre de la pièce|Déni]]</tw-passagedata><tw-passagedata pid="20" name="Se tourner" tags="Déni" position="1375,700" size="100,100">De l&#39;air vous souffle au visage. Vous vous sentez repoussé, mais une fois les yeux ouverts, vous distinguez une scène étrange. 
+[[Retourner au centre de la pièce|Déni]]</tw-passagedata><tw-passagedata pid="16" name="Introduction" tags="" position="800,450" size="100,100">Vous êtes au milieu d&#39;une salle sombre. Des inscriptions cryptiques jauchent les murs. Celles-ci semblent essayer de communiquer avec vous, mais vous ne les reconnaissez pas.
+
+Une seule lumière subsiste, émanant d&#39;une silhouette vous regardant d&#39;un sourire bienveillant, amusé par votre air de perdition.
+
+À côté d&#39;elle se trouve une gigantesque porte. Elle vous attire, mais vous sentez un effroi à sa simple vue. Elle semble faite de vide et vous sentez que derrière elle, toute lumière est absorbée.
+
+[[Aborder la silhouette|La mort]]
+[[S&#39;approcher de la porte|Porte Intro]]</tw-passagedata><tw-passagedata pid="17" name="J&#39;ai connu de meilleurs jours..." tags="Personnage Intro" position="800,850" size="100,100">&quot;Jours, mois, heures, minutes, secondes.... Cela n&#39;a pas d&#39;importance ici. Les meilleurs moments sont ceux qui se trouvent hors du temps. 
+
+N&#39;essaie pas de compter le temps que tu passeras dans ces couloirs, tu deviendrais fou.&quot;
+
+[[Où suis-je ?]]</tw-passagedata><tw-passagedata pid="18" name="Je sais ce qu&#39;est une forêt..." tags="Déni Personnage" position="1375,1100" size="100,100">(text-style:&quot;outline&quot;,&quot;expand&quot;,&quot;rumble&quot;)[&quot;HAHAHAHAHA&quot;]
+
+Ce rire semble vous absorber. Il tourne et résonne dans votre tête, se mêlant à un fort sentiment de confusion et de malaise. Vous avez à la fois envie de fuire et d&#39;explorer cette étrange dimension dans laquelle la raison semble s&#39;être essouflée face à la puissante folie de ses habitants.
+
+&quot;Vous êtes sacrément pâle... Pourquoi ne pas se posez au soleil avec moi et profiter de la beauté qui vous entoure ? Vous voulez une goutte ? Elle est encore fraîche.&quot;
+
+[[Très volontiers !]]
+
+[[C&#39;est gentil, mais non merci.]]</tw-passagedata><tw-passagedata pid="19" name="L&#39;ouvrir" tags="Déni Porte" position="1425,325" size="100,100">(if: $cléDéni)[La porte [[s&#39;ouvre|Forêt]]]
+
+
+(unless: $cléDéni)[Vous avez beau essayer de toutes vos forces, la porte est verrouillée.]</tw-passagedata><tw-passagedata pid="20" name="La mort" tags="Personnage Intro" position="800,575" size="100,100">De plus près, vous remarquez que la lumière que vous distinguiez semble parasitée par de petites particules noires semblable à la neige d&#39;une télévision sans signal. Impossible de remarquer le moindre trait en dehors de ce sourire. Son corps entier semble être un portail vers un endroit qui vous est étranger, complètement illuminé et impossible à rapporter à quelque chose de reconnaissable.
+
+La silhouette semble ravie de vous voir approcher.
+
+[[Elle vous adresse la parole]]</tw-passagedata><tw-passagedata pid="21" name="Le déni" tags="Déni Personnage" position="1375,725" size="100,100">Jamais vous n&#39;auriez imaginé rencontrer un être émanant une telle sérénité dans un endroit pareil. Vous réfléchissez à ce qui a bien pu vous mener dans un tel endroit et à ce qui vous lie à l&#39;entité en face de vous.
+
+Finalement, votre panique n&#39;est peut-être pas justifiée, peut-être y a-t-il une raison de sourire et de se détendre. Vous êtes de plus en plus curieux sur la nature de ce qui vous semble être la première lueur de bonheur dans un endroit si sombre.
+
+[[Lui adresser la parole]]</tw-passagedata><tw-passagedata pid="22" name="Lui adresser la parole" tags="Déni Personnage" position="1375,850" size="100,100">&quot;Bonjour! Excusez-moi de vous déranger... Où est-ce qu&#39;on se trouve ?&quot;
+
+Vous laissez glisser de votre bouche ces paroles hésitantes. Était-il vraiment le jour, la nuit, l&#39;après-midi, le soir ? Vous vous rappelez ce qu&#39;on vous a dit et perdez l&#39;espoir de pouvoir répondre à cette question tant que vous ne saurez pas où vous êtes.
+
+La silhouette relâche un soupir satisfait et vous répond calmement, toujours le sourire aux lèvres.
+
+&quot;Aaaaaaaaah la nature.... quoi de mieux qu&#39;un grand bol d&#39;air frais, n&#39;est-ce pas ? Je vois que les sentiers que vous avez empruntés nous ont réuni ! Malgré les infinités de choix que l&#39;on peut prendre en naviguant la forêt, vous êtes arrivés à moi. Je connais ces bois comme ma poche, je peux peut-être vous aider. Vous vous êtes perdus ?&quot;
+
+[[Une forêt ?]]</tw-passagedata><tw-passagedata pid="23" name="Où suis-je ?" tags="Personnage Intro" position="975,750" size="100,100">&quot;Chez toi ! Mais c&#39;est normal si tu ne reconnais pas, la déco a été... refaite...
+
+Peut-être que ça te reviendra, mais il n&#39;y a que toi qui puisse y faire quelque chose.
+
+Bon voyage ^^&quot;
+
+[[Merci....|Introduction]]</tw-passagedata><tw-passagedata pid="24" name="Porte Intro" tags="Porte Intro" position="925,575" size="100,100">La porte fait au moins 10 tiers de votre propre taille. Vous ne savez pas comment ce nombre vous est venu à l&#39;esprit cependant.
+
+[[Entrer|Entrer Intro]]</tw-passagedata><tw-passagedata pid="25" name="Prologue" tags="" position="800,325" size="100,100">La lumière a disparu.
+
+Les ténèbres vous engouffrent et une sensation de légèreté prend votre corps. Vous vous sentez transporté vers un autre endroit, bien différent du monde dont vous avez eu l&#39;habitude jusqu&#39;à maintenant et pourtant vous êtes pris d&#39;une étrange sensation de familiarité.
+
+[[Introduction]]</tw-passagedata><tw-passagedata pid="26" name="Qui es-tu ?" tags="Personnage Intro" position="675,825" size="100,100">&quot;Hmmm........ :|&quot;
+
+[[Où suis-je ?]]</tw-passagedata><tw-passagedata pid="27" name="Se tourner" tags="Déni" position="1425,600" size="100,100">De l&#39;air vous souffle au visage. Vous vous sentez repoussé, mais une fois les yeux ouverts, vous distinguez une scène étrange. 
 
 Au milieu de cette cave humide, vous voyez contre le mur un décor ressemblant à une forêt. Celui-ci semble avoir été peint à la main par un enfant en bas âge.
 
@@ -95,14 +131,68 @@ Au milieu de cette cave humide, vous voyez contre le mur un décor ressemblant �
 
 À côté de celui-ci, se trouve [[une étrange sculpture|Arbre...]] faite de bûches.
 
-Et posé sur un transat, bière à la main, le sourire aux lèvre, se trouve quelqu&#39;un. Vous sentez sa confiance malgré ses lunettes de soleil dissimulant ses yeux. Il ne semble pas vous remarquer, absorbé dans la contemplation du paysage qui l&#39;entoure. [[Vous l&#39;approchez|Le déni]].</tw-passagedata><tw-passagedata pid="21" name="Ventilateur" tags="" position="1375,825" size="100,100"></tw-passagedata><tw-passagedata pid="22" name="Arbre..." tags="" position="1500,825" size="100,100"></tw-passagedata><tw-passagedata pid="23" name="Le déni" tags="Déni Personnage" position="1250,825" size="100,100">Jamais vous n&#39;auriez imaginé rencontrer un être émanant une telle sérénité dans un endroit pareil. Vous réfléchissez à ce qui a bien pu vous mener dans un tel endroit et à ce qui vous lie à l&#39;entité en face de vous. Finalement, votre panique n&#39;est peut-être pas justifiée, peut-être y a-t-il une raison de sourire et de se détendre. Vous êtes de plus en plus curieux sur la nature de ce qui vous semble être la première lueur de bonheur dans un endroit si sombre.
+Et posé sur un transat, une cannette à la main, le sourire aux lèvre, se trouve quelqu&#39;un. Vous sentez sa confiance malgré ses lunettes de soleil dissimulant ses yeux. Il ne semble pas vous remarquer, absorbé dans la contemplation du paysage qui l&#39;entoure. [[Vous l&#39;approchez|Le déni]].</tw-passagedata><tw-passagedata pid="28" name="Suivre la lumière" tags="" position="1100,1200" size="100,100">(set: $cléDéni to false)
+L&#39;environnement dans lequel vous êtes se définit. Vous êtes entouré de murs de béton en décrépitude, salis par la moissisure.
 
-[[Lui adresser la parole]]</tw-passagedata><tw-passagedata pid="24" name="Lui adresser la parole" tags="Déni Personnage" position="1250,950" size="100,100">&quot;Bonjour! Excusez-moi de vous déranger... Où est-ce qu&#39;on se trouve ?&quot;
+Vous suivez la lumière jusqu&#39;à arriver devant une salle dont la porte est ouverte. De celle-ci provient une lumière aveuglante en comparaison avec l&#39;obscurité dans lequel vous avez navigué jusqu&#39;à présent.
 
-Vous laisser glisser de votre bouche ces paroles hésitantes. Était-il vraiment le jour, la nuit, l&#39;après-midi, le soir ? Vous vous rappelez ce qu&#39;on vous a dit et perdez l&#39;espoir de pouvoir répondre à cette question tant que vous ne saurez pas où vous êtes.
+Vous percevez un assourdissant bruit de ventilateur et un bourdonnement électrique à mesure que vous vous approchez.
 
-La silhouette relâche un soupir satisfait et vous répond calmement, toujours le sourire aux lèvres.
-&quot;Aaaaaaaaah la nature.... quoi de mieux qu&#39;un grand bol d&#39;air frais, n&#39;est-ce pas ? Je vois que les sentiers que vous avez empruntés nous ont réuni ! Malgré les infinités de choix que l&#39;on peut prendre en naviguant la forêt, vous êtes arrivés à moi. Je connais ces bois comme ma poche, je peux peut-être vous aider. Vous vous êtes perdus ?&quot;</tw-passagedata></tw-storydata>
+[[Entrer dans la pièce|Déni]]</tw-passagedata><tw-passagedata pid="29" name="Très volontiers !" tags="Déni Personnage" position="1375,1225" size="100,100">Avec un soupçon de méfiance, vous approchez vos lèvres de la canette. Celle-ci ne dégage pas d&#39;odeur.
+
+Une large goutte se dépose sur votre langue. Vous êtes immédiatement écoeuré par le mélange d&#39;acidité et d&#39;amertume de la boisson. Vous la redonnez hâtivement à son propriétaire.
+
+À mesure que le liquide coule dans votre oesophage vous sentez des vagues de chaleur parcourant vos organes. Vous ne sentez pas le reste de votre corps.
+
+L&#39;environnement dans lequel vous êtes s&#39;illumine de plus en plus jusqu&#39;à que votre vision ne semble être faite que de lumière.
+
+[[Vous tombez.]]</tw-passagedata><tw-passagedata pid="30" name="Une forêt ?" tags="Déni Personnage" position="1375,975" size="100,100">&quot;Oui, une forêt! Vous en avez probablement déjà entendu parler... C&#39;est un endroit magnifique et mystérieux où la nature est reine. C&#39;est généralement rempli d&#39;arbres et on y sent toujours un courant d&#39;air frais qui ravive les sens. 
+
+C&#39;est un véritable havre de paix! En plus, vous êtes bien chanceux de découvrir ce que c&#39;est pendant la MEILLEURE saison!!! Je vous envie....&quot;
+
+[[Je sais ce qu&#39;est une forêt...]]
+
+[[Ah merci ! Je comprends mieux.]]</tw-passagedata><tw-passagedata pid="31" name="Ventilateur" tags="Déni Objet" position="1475,725" size="100,100">Un vent violent vous souffle au visage. Vous avez l&#39;impression que toute la poussière de la pièce a choisi de se loger à l&#39;intérieur de vos paupières. Des larmes coulent sur vos joues.
+
+C&#39;est insupportable.
+
+[[Revenir en arrière|Se tourner]]</tw-passagedata><tw-passagedata pid="32" name="Vous distinguez une nouvelle voix" tags="Déni Personnage" position="1375,1475" size="100,100">(text-style:&quot;blurrier&quot;,&quot;flat&quot;)[&quot;O... Eee......o..h... ..n s.. r...v...ille...&quot;]
+
+La lumière commence à revenir progressivement. Vous sentez votre corps entier trembler.
+
+(text-style:&quot;blur&quot;,&quot;flat&quot;)[&quot;Vo... comm.....cez à... me f...re p.....r&quot;]
+
+Vous ouvrez les yeux et reconnaissez par ses lunettes de soleil votre nouvel ami qui vous secoue frénétiquement.
+
+En vous voyant revenir à vos sens il semble soulagé.
+
+&quot;J&#39;ai cru que vous n&#39;alliez jamais revenir... Je n&#39;aurais pas pensé que vous réagiriez si mal... Je suis content de vous revoir!!!&quot;
+
+Vous esquissez un sourire forcé en vous relevant avec peine.
+
+&quot;Vous savez, ça ne m&#39;est jamais arrivé de tomber comme ça, vous ne devez pas être très en forme...&quot;
+
+Vous ne faites pas attention à ce qu&#39;il dit. Une seule question vous traverse l&#39;esprit.
+
+[[Est-ce qu&#39;il y a une sortie ?]]</tw-passagedata><tw-passagedata pid="33" name="Vous revenez à vos sens et répondez." tags="Déni Personnage" position="1500,1475" size="100,100">&quot;La porte est fermée. Vous n&#39;avez pas une autre idée de comment sortir ?&quot;
+
+L&#39;étrange personnage semble agacé par vos questions.
+
+&quot;Il suffit d&#39;avoir une clé dans ce cas ! Vous devez être vraiment perdu...&quot;
+
+Vous commencez aussi à être agacé, mais vous gardez votre sang froid.
+
+&quot;Et où est-ce que je peux en trouver une exactement ???&quot;
+
+[[&quot;Juste là&quot;]]</tw-passagedata><tw-passagedata pid="34" name="Vous tombez." tags="Déni" position="1375,1350" size="100,100">Vous passez d&#39;une lumière aveuglante au noir complet.
+
+Une voix semble vous interpeller.
+
+(text-style:&quot;blurrier&quot;,&quot;expand&quot;,&quot;fidget&quot;)[&quot;..ap.. r..v...ill.. t.. s&#39;i.. ..e  pl..&quot;]
+
+Vous ne savez pas pourquoi mais vous ressentez une immense tristesse.
+
+[[Vous distinguez une nouvelle voix]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
