@@ -1,0 +1,81 @@
+title: le_déni
+tags: déni, personnage
+---
+Jamais vous n'auriez imaginé rencontrer un être émanant une telle sérénité dans un endroit pareil.
+Vous réfléchissez à ce qui a bien pu vous mener dans un tel endroit et à ce qui vous lie à l'entité en face de vous.
+Finalement, votre panique n'est peut-être pas justifiée, peut-être y a-t-il une raison de sourire et de se détendre.
+Vous êtes de plus en plus curieux sur la nature de ce qui vous semble être la première lueur de bonheur dans un endroit si sombre.
+-> "Bonjour! Excusez-moi de vous déranger... Où est-ce qu'on se trouve ?"
+    Vous laissez glisser de votre bouche ces paroles hésitantes.
+    Était-il le jour, la nuit, l'après-midi, le soir ?
+    Vous vous rappelez ce qu'on vous a dit et perdez l'espoir de pouvoir répondre à cette question tant que vous ne saurez pas où vous êtes.
+    La silhouette relâche un soupir satisfait et vous répond calmement, toujours le sourire aux lèvres.
+    Inconnu: "Aaaaaaaaah la nature.... quoi de mieux qu'un grand bol d'air frais, n'est-ce pas ?"
+    Inconnu: "Je vois que les sentiers que vous avez empruntés nous ont réuni ! Malgré les infinités de choix que l'on peut prendre en naviguant la forêt, vous êtes arrivés à moi."
+    Inconnu: "Je connais ces bois comme ma poche, je peux peut-être vous aider. Vous vous êtes perdus ?"
+    -> "Une forêt ?"
+        Inconnu: "Oui, une forêt! Vous en avez probablement déjà entendu parler... C'est un endroit magnifique et mystérieux où la nature est reine."
+        Inconnu: "C'est généralement rempli d'arbres et on y sent toujours un courant d'air frais qui ravive les sens."
+        Inconnu: "C'est un véritable havre de paix! En plus, vous êtes bien chanceux de découvrir ce que c'est pendant la MEILLEURE saison!!! Je vous envie...."
+        -> "Je sais ce qu'est une forêt..."
+            Inconnu: "HAHAHAHAHAHAHAHAAHAHAHAHAHAHHAHAHA"
+            Ce rire semble vous absorber. Il tourne et résonne dans votre tête, se mêlant à un fort sentiment de confusion et de malaise.
+            Vous avez à la fois envie de fuire et d'explorer cette étrange dimension dans laquelle la raison semble s'être essouflée face à la puissante folie de ses habitants.
+            Inconnu: "Vous êtes sacrément pâle... Pourquoi ne pas se posez au soleil avec moi et profiter de la beauté qui vous entoure ?"
+            Inconnu: "Vous voulez une goutte ? Elle est encore fraîche."
+            -> "C'est gentil, mais non merci, je touche plus à ça."
+                Inconnu: "Je comprends, c'est pas pour tout le monde."
+                -> "Est-ce qu'il y a une sortie ?"
+                    <<jump question_sortie>>
+            -> "Très volontiers !"
+                <<jump boisson_déni>>
+===
+
+title: boisson_déni
+tags: déni, personnage
+---
+Avec un soupçon de méfiance, vous approchez vos lèvres de la canette. Celle-ci ne dégage pas d'odeur.
+Une large goutte se dépose sur votre langue. Vous êtes immédiatement écoeuré par le mélange d'acidité et d'amertume de la boisson. Vous la redonnez hâtivement à son propriétaire.
+À mesure que le liquide coule dans votre oesophage vous sentez des vagues de chaleur parcourant vos organes.
+Vous ne sentez pas le reste de votre corps.
+L'environnement dans lequel vous êtes s'illumine de plus en plus jusqu'à que votre vision ne semble être faite que de lumière.
+Vous tombez. //insérer un évènement où la vision devient noire
+Vous passez d'une lumière aveuglante au noir complet.
+Une voix semble vous interpeller.
+? : "..ap.. r..v...ill.. t.. s'i.. ..e  pl.."
+Vous ne savez pas pourquoi mais vous ressentez une immense tristesse.
+Vous distinguez une nouvelle voix. //insérer évènement où la lumière revient progressivement
+?? : "O... Eee......o..h... ..n s.. r...v...ille..."
+La lumière commence à revenir progressivement. Vous sentez votre corps entier trembler.
+?? : "Vo... comm.....cez à... me f...re p.....r"
+Vous ouvrez les yeux et reconnaissez par ses lunettes de soleil votre nouvel ami qui vous secoue frénétiquement. //vision redevient normale
+En vous voyant revenir à vos sens il semble soulagé.
+Inconnu: "J'ai cru que vous n'alliez jamais revenir... Je n'aurais pas pensé que vous réagiriez si mal... Je suis content de vous revoir!!!"
+Vous esquissez un sourire forcé en vous relevant avec peine.
+Inconnu: "Vous savez, ça ne m'est jamais arrivé de tomber comme ça, vous ne devez pas être très en forme..."
+Vous ne faites pas attention à ce qu'il dit. Une seule question vous traverse l'esprit.
+-> "Est-ce qu'il y a une sortie ?"
+    <<jump question_sortie>>
+===
+
+title: question_sortie
+tags: déni, personnage
+---
+Inconnu: "Évidemment !!! Vous n'avez pas vu la porte ?"
+Inconnu: "Personnellement, je ne quitterais cet endroit pour rien au monde, mais vous êtes peut-être un peu trop *citadin* pour apprécier.... Sans vouloir vous offusquez..."
+À ce moment, vous essayer de vous souvenir de si vous êtes effectivement quelqu'un de trop *citadin*.
+Vous avez énormément de mal à répondre à vos propres questions. Vos souvenirs ne ressemblent qu'à un brouillard froid dans lequel se cachent des réponses. Mais celles-ci semblent s'éloigner à mesure que vous vous approchez d'elles.
+Vous revenez à vos sens et répondez
+-> "La porte est fermée. Vous n'avez pas une autre idée de comment sortir ?"
+    L'étrange personnage semble agacé par vos questions.
+    Inconnu: "Il suffit d'avoir une clé dans ce cas ! Vous devez être vraiment perdu..."
+    Vous commencez aussi à être agacé, mais vous gardez votre sang froid.
+    -> "Et où est-ce que je peux en trouver une exactement ???"
+        Inconnu: "Juste là"
+        D'un geste souple, une clé est sorti de la poche du short trop court de votre interlocuteur.
+        Inconnu: "Prenez là, je n'en ai pas besoin. Je n'ai aucune raison de sortir."
+        **Vous recevez une clé**
+        <<set $clé_déni to true>> //petit jingle et changement de la variable clé en True
+        Vous n'auriez jamais imaginé que cela soit aussi simple.
+        Vous sentez un incroyable soulagement. Vous lâchez un "merci" emprunt de confusion mêlé à l'espoir d'enfin pouvoir sortir de cet endroit dont l'atmosphère pesante commençait à se faire ressentir.
+===

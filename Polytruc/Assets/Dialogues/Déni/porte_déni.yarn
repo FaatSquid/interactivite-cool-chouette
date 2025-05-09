@@ -1,0 +1,9 @@
+title: porte_déni
+tags: déni, porte
+---
+<<if $clé_déni == false>>
+    Vous avez beau essayer de toutes forces, la porte est vérouillées.
+<<else>>
+    La porte s'ouvre. //évènement ouverture de la porte.
+<<endif>>
+===

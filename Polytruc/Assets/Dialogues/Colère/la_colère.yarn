@@ -1,0 +1,49 @@
+title: la_colère
+tags: colère, personnage
+---
+Devant vous se trouve une créature flottant à côté d'un feu de camp. Elle est dotée de huit membres.
+Vous remarquez qu'une de ces tentacules tient une branche avec au bout un marshmallow devenu complètement noir.
+Vous sentez une odeur de soufre se mêlant à l'odeur des bûches calcinées.
+-> L'ambiance devient trop pesante pour vous, vous décidez de partir.
+    Vous essayez de partir, très vite, mais quelque chose vous retient. //insérer animation de mouvement
+    Alors que vous étiez perdu dans vos pensées, une sorte de tentacule noire vous a attrapé le pied. Vous vous rendez compte que la créature fait peser son regard sur vous.
+    ...
+    Étrange créature: "HEY !!! TU PENSES ALLER OÙ COMME ÇA ???"
+    Le ton aggressif de cette chose vous terrifie, vous ne pensez qu'à vous en sortir.
+    -> "S'il vous plait, ne me faites pas de mal... je ne fais que passer."
+        La créature semble un peu plus calme, mais elle ne quitte pas son ton aggressif.
+        Étrange créature: "AH! BAH PARDON ALORS, JE VOULAIS PAS TE FAIRE PEUR!"
+        Vous êtes confus par la réaction plus positif qu'attendue de votre interlocuteur.
+        Étrange créature: "EST-CE QUE TOUT VA BIEN ???? ON DIRAIT QUE TU AS VU UN MONSTRE !!!!"
+        ...
+        -> "Vous ressemblez beaucoup à un monstre quand même...."
+            Vous voyez l'unique oeil de votre interlocuteur s'éprendre d'une certaine fureur.
+            Étrange créature: "J'AURAIS PU TE TUER IL Y A QUELQUES MINUTES ET TU OSES ME TRAITER DE MONSTRE ?????"
+            -> "Oui, c'est bien pour ça."
+                Étrange créature: "..."
+                Le bois entier semble s'être tu.
+                Vous voyez que votre interlocuteur s'est définitivement calmé.
+                Vous reconnaissez une expression de tristesse dans le peu de ses traits humains.
+                Étrange créature: "Peut-être que je suis effectivement un monstre."
+                Étrange créature: "Je ne te connais pas, mais j'ai essayer de te faire du mal par ta simple vue."
+                Étrange créature: "Je n'ai pas toujours été comme ça et je ne sais pas ce qui m'a fait basculer."
+                Étrange créature: "C'est cet endroit, il m'a complètement transformé. Maintenant je suis coincé ici et je n'arrive même pas faire griller une guimauve sans que celle-ci flambe. Même la douceur me fuit."
+                -> "Où est-ce qu'on se trouve ?"
+            -> "Pardon, pardon, pardon... Je ne voulais pas vous vexer."
+                Étrange créature: "OUAIS C'EST ÇA OUAIS !!! ET PUIS QUOI ENCORE ??? JE SUIS UNE PIEUVRE VOLANTE ????"
+                "..."
+                Étrange créature: "JE NE SUIS PAS UNE PIEUVRE VOLANTE !!!!"
+                -> "Qu'est-ce que vous êtes au fait ?"
+                    La créature semble quelque peu se calmer.
+                    Étrange créature: "Je ne sais pas trop... J'essaie de me rappeler, mais mes souvenirs sont flous."
+                    Vous remarquez chez votre interlocuteur un ton et une expression qui vous rappelle votre propre situation.
+                    Votre peur s'est transformée en pitié pour l'être perdu que vous avez en face de vous.
+                    Étrange créature: "Et toi t'es quoi ?"
+                    Vous ne vous attendiez pas à ce que l'on commence à vous poser ce genre de questions.
+                    -> "Bah... Euh..."
+                        Répondre que vous étiez humain semblait évident pour vous, mais quelque chose vous en empêche.
+                    -> "Un humain bien sûr !!!" //LE FRATÉ EST DANS LE DEEEEENIIII OMG
+        -> "Oui, tout va bien. Je suis juste un peu perdu."
+    -> "JE VAIS OÙ JE VEUX ET C'EST PAS UNE PIEUVRE VOLANTE QUI VA ME DIRE CE QUE JE DOIS FAIRE!"
+
+===

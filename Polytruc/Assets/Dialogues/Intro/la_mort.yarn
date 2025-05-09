@@ -1,0 +1,36 @@
+title: La_mort
+tags: intro, personnage
+position: -65,-180
+---
+La seule lumière de la pièce semble être la silhouette qui vous fait face.
+Elle vous regarde d'un sourire bienveillant, amusée par votre air de perdition.
+vous remarquez que cette lumière semble parasitée par de petites particules noires semblable à la neige d'une télévision sans signal.
+Impossible de remarquer le moindre trait en dehors de ce sourire.
+Son corps entier semble être un portail vers un endroit qui vous est étranger, complètement illuminé et impossible à rapporter à quelque chose de reconnaissable.
+La silhouette semble ravie de vous voir approcher.
+-> Elle vous addresse la parole.
+    ???: "L'état intermédiaire de ton âme semble vacillant devant la grandeur de l'esprit. Ta divinité a été abandonnée au dépens de tes missions terrestres."
+    -> ?????
+        ???: "Oh pardon, je me suis emporté :P"
+        ???: "Salut! Comment tu te sens ? Tu m'as l'air perdu, je peux t'aider ?"
+        -> "J'ai connu de meilleurs jours..."
+            ???: "Jours, mois, heures, minutes, secondes.... Cela n'a pas d'importance ici. Les meilleurs moments sont ceux qui se trouvent hors du temps."
+            ???: "N'essaie pas de compter le temps que tu passeras dans ces couloirs, tu deviendrais fou."
+            -> "Où suis-je ?"
+                <<jump Ou_suis_je>>
+        -> "Où suis-je ?"
+            <<jump Ou_suis_je>>
+        -> "Qui es-tu ?"
+            ???: "Hmmm........ :|"
+            -> "Où suis-je ?"
+                <<jump Ou_suis_je>>
+===
+
+title: Ou_suis_je
+tags: intro, personnage
+position: 217,-135
+---
+???: "Chez toi ! Mais c'est normal si tu ne reconnais pas, la déco a été... refaite..."
+???: "Peut-être que ça te reviendra, mais il n'y a que toi qui puisse y faire quelque chose."
+???: "Bon voyage ^^"
+===
