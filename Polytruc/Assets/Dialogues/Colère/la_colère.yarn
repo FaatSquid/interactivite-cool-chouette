@@ -13,7 +13,7 @@ Vous sentez une odeur de soufre se mêlant à l'odeur des bûches calcinées.
     -> "S'il vous plait, ne me faites pas de mal... je ne fais que passer."
         La créature semble un peu plus calme, mais elle ne quitte pas son ton aggressif.
         Étrange créature: "AH! BAH PARDON ALORS, JE VOULAIS PAS TE FAIRE PEUR!"
-        Vous êtes confus par la réaction plus positif qu'attendue de votre interlocuteur.
+        Vous êtes confus par la réaction plus positive qu'attendue de votre interlocuteur.
         Étrange créature: "EST-CE QUE TOUT VA BIEN ???? ON DIRAIT QUE TU AS VU UN MONSTRE !!!!"
         ...
         -> "Vous ressemblez beaucoup à un monstre quand même...."
@@ -44,6 +44,22 @@ Vous sentez une odeur de soufre se mêlant à l'odeur des bûches calcinées.
                         Répondre que vous étiez humain semblait évident pour vous, mais quelque chose vous en empêche.
                     -> "Un humain bien sûr !!!" //LE FRATÉ EST DANS LE DEEEEENIIII OMG
         -> "Oui, tout va bien. Je suis juste un peu perdu."
+            Étrange créature: "ET TU PENSES QUE JE SUIS QUOI MOI ? CHEZ MOI PEUT-ÊTRE ????"
+            "Je n'en sais rien."
+            "Je sais simplement que je ne suis pas chez m-"
+            À mesure que ces mots glissent de votre bouche, vous vous rappelez ce que l'être qui vous a accueilli avait mentionné.
+            Étiez-vous réellement dans un endroit connu ?
+            Vos sens vous indiquent le contraire depuis le début de votre périple et pourtant vous semblez pouvoir vous débrouiller suffisamment pour progresser dans ce nouvel environnement.
+            Cela ne semble pas réel, mais vous vous sentez trop éveillé pour suggérer que vous vous trouvez dans un rêve.
+            Étrange créature: "BREF, ON EST TOUS LES DEUX PERDUS QUOI!"
+            La force à laquelle votre interlocuteur vous crie dessus vous ramène hors de vos pensées.
+            -> "Vous ne savez pas où on est ?"
+                Le silence qui suit votre interrogation vous perce les tympans.
+                La créature se pétrifie. Son seul oeil a perdu son éclat, ses tentacules sont immobiles et surtout plus aucun cri n'arrive à vos oreilles.
+                À la place, votre interlocuteur émet ce qui semble être des murmures en comparaison à ce à quoi vous vous étiez habitué.
+                Étrange créature: "Je ne sais plus."
+                Étrange créature: "Mon environnement a totalement changé, brusquement."
+
     -> "JE VAIS OÙ JE VEUX ET C'EST PAS UNE PIEUVRE VOLANTE QUI VA ME DIRE CE QUE JE DOIS FAIRE!"
 
 ===
