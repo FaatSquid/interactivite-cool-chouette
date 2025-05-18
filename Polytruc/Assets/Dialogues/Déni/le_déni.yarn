@@ -21,8 +21,17 @@ Vous êtes de plus en plus curieux sur la nature de ce qui vous semble être la 
             Inconnu: "HAHAHAHAHAHAHAHAAHAHAHAHAHAHHAHAHA"
             Ce rire semble vous absorber. Il tourne et résonne dans votre tête, se mêlant à un fort sentiment de confusion et de malaise.
             Vous avez à la fois envie de fuire et d'explorer cette étrange dimension dans laquelle la raison semble s'être essouflée face à la puissante folie de ses habitants.
-            Inconnu: "Vous êtes sacrément pâle... Pourquoi ne pas se posez au soleil avec moi et profiter de la beauté qui vous entoure ?"
+            Inconnu: "Vous êtes sacrément pâle... Pourquoi ne pas se poser au soleil avec moi et profiter de la beauté qui vous entoure ?"
             Inconnu: "Vous voulez une goutte ? Elle est encore fraîche."
+            -> "C'est gentil, mais non merci, je touche plus à ça."
+                Inconnu: "Je comprends, c'est pas pour tout le monde."
+                -> "Est-ce qu'il y a une sortie ?"
+                    <<jump question_sortie>>
+            -> "Très volontiers !"
+                <<jump boisson_déni>>
+        -> "Ah merci! Je comprends mieux."
+            Vous semblez comprendre de moins en moins, mais vous pensez qu'il serait mieux d'éviter de tenir tête à un tel excès de déraison sous risque d'être contaminé par celui-ci.
+            Inconnu: "Si vous le souhaitez, vous pouvez vous asseoir avec moi ! En plus il me reste quelques gouttes que je me ferais un plaisir de partager avec vous !!!"
             -> "C'est gentil, mais non merci, je touche plus à ça."
                 Inconnu: "Je comprends, c'est pas pour tout le monde."
                 -> "Est-ce qu'il y a une sortie ?"
@@ -62,7 +71,7 @@ title: question_sortie
 tags: déni, personnage
 ---
 Inconnu: "Évidemment !!! Vous n'avez pas vu la porte ?"
-Inconnu: "Personnellement, je ne quitterais cet endroit pour rien au monde, mais vous êtes peut-être un peu trop *citadin* pour apprécier.... Sans vouloir vous offusquez..."
+Inconnu: "Personnellement, je ne quitterais cet endroit pour rien au monde, mais vous êtes peut-être un peu trop *citadin* pour apprécier.... Sans vouloir vous offusquer..."
 À ce moment, vous essayer de vous souvenir de si vous êtes effectivement quelqu'un de trop *citadin*.
 Vous avez énormément de mal à répondre à vos propres questions. Vos souvenirs ne ressemblent qu'à un brouillard froid dans lequel se cachent des réponses. Mais celles-ci semblent s'éloigner à mesure que vous vous approchez d'elles.
 Vous revenez à vos sens et répondez
@@ -72,7 +81,7 @@ Vous revenez à vos sens et répondez
     Vous commencez aussi à être agacé, mais vous gardez votre sang froid.
     -> "Et où est-ce que je peux en trouver une exactement ???"
         Inconnu: "Juste là"
-        D'un geste souple, une clé est sorti de la poche du short trop court de votre interlocuteur.
+        D'un geste souple, une clé est sortie de la poche du short trop court de votre interlocuteur.
         Inconnu: "Prenez là, je n'en ai pas besoin. Je n'ai aucune raison de sortir."
         **Vous recevez une clé**
         <<set $clé_déni to true>> //petit jingle et changement de la variable clé en True

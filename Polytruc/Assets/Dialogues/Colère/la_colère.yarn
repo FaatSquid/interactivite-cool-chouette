@@ -25,10 +25,20 @@ Vous sentez une odeur de soufre se mêlant à l'odeur des bûches calcinées.
                 Vous voyez que votre interlocuteur s'est définitivement calmé.
                 Vous reconnaissez une expression de tristesse dans le peu de ses traits humains.
                 Étrange créature: "Peut-être que je suis effectivement un monstre."
-                Étrange créature: "Je ne te connais pas, mais j'ai essayer de te faire du mal par ta simple vue."
+                Étrange créature: "Je ne te connais pas, mais j'ai essayé de te faire du mal par ta simple vue."
                 Étrange créature: "Je n'ai pas toujours été comme ça et je ne sais pas ce qui m'a fait basculer."
                 Étrange créature: "C'est cet endroit, il m'a complètement transformé. Maintenant je suis coincé ici et je n'arrive même pas faire griller une guimauve sans que celle-ci flambe. Même la douceur me fuit."
                 -> "Où est-ce qu'on se trouve ?"
+                    Étrange créature: "Je ne sais plus."
+                    Étrange créature: "Mon environnement a totalement changé, brusquement."
+                    Étrange créature: "Je viens d'ici, mais je pouvais naviguer dans l'espace. Maintenant, je suis coincé dans cette petite parcelle du monde, comme condamné à faire brûler ce qu'il y a autour de moi."
+                    Étrange créature: "ET J'EN AI MARRE DE CONSTATER QUE LA LIBERTÉ S'EST ENVOLÉE EN MÊME TEMPS QUE TOUTES MES FACULTÉS."
+                    Étrange créature: "LE CALME N'EST PLUS. MON MONDE SE RÉSUME À CE BOIS MISÉREUX ET À CETTE CONSTANTE ODEUR DE BRÛLÉ."
+                    Étrange créature: "ALORS FUIS, AUSSI VITE QUE TU LE PUISSES ET QUE JE NE TE REVOIS JAMAIS!!!!"
+                    Le changement d'humeur de l'être qui vous fait fasse vous rappelle votre première altercation qui aurait pu se finir d'une bien plus terrible manière.
+                    Étrange créature: "TOI QUI EST LIBRE, FUIS!"
+                    Vous prenez très au sérieux ce conseil répété aux allures de menace.
+                    -> Vous partez. //Insérer animation de mouvement rapide into tomber dans le trou
             -> "Pardon, pardon, pardon... Je ne voulais pas vous vexer."
                 Étrange créature: "OUAIS C'EST ÇA OUAIS !!! ET PUIS QUOI ENCORE ??? JE SUIS UNE PIEUVRE VOLANTE ????"
                 "..."
@@ -42,7 +52,52 @@ Vous sentez une odeur de soufre se mêlant à l'odeur des bûches calcinées.
                     Vous ne vous attendiez pas à ce que l'on commence à vous poser ce genre de questions.
                     -> "Bah... Euh..."
                         Répondre que vous étiez humain semblait évident pour vous, mais quelque chose vous en empêche.
-                    -> "Un humain bien sûr !!!" //LE FRATÉ EST DANS LE DEEEEENIIII OMG
+                        Vos sensations ont bien changé depuis votre arrivée dans ce monde.
+                        Le vent n'effleure plus votre peau. Votre corps ne semble plus si lourd. Vos déplacements semblent plus fluides.
+                        Quelque chose a changé, mais vous n'arrivez pas à mettre le doigt dessus.
+                        "..."
+                        Votre silence semble partager la perception de votre interlocuteur.
+                        Étrange créature: "Donc toi aussi..."
+                        Étrange créature: "Mais contrairement à moi, tu es libre. Tu es arrivé ici et tu pourras certainement repartir. Je suis coincé."
+                        Vous vous sentez triste. Vous ne savez même pas où vous allez. Est-ce vraiment de la liberté si vous ne suivez qu'une ligne droite dans le noir ?
+                        Cependant, vous semblez avoir une capacité privilégiée à vous mouvoir contrairement aux habitants de ce nouveau monde.
+                        -> "Comment est-ce que je peux partir d'ici ?"
+                            Étrange créature: "COMMENT VEUX-TU QUE JE LE SACHE ??? JE SUIS COINCÉ ICI À JAMAIS ! ENTRE CES ARBRES ET CE FEU QUI NE S'ARRÊTE JAMAIS DE BRÛLER !!!"
+                            Vous semblez avoir ranimé la fureur de cette créature qui a bien failli vous tuer. Vous êtes à nouveau effrayé.
+                            Étrange créature: "JE NE SAIS MÊME PAS COMMENT TU ES ARRIVÉ ICI!!!!"
+                            "Je ne sais pas non plus..."
+                            Vous hésitez à prononcer ces paroles étant donné l'état de votre interlocuteur.
+                            Étrange créature: "MAIS ALORS FUIS !!! FUIS TANT QUE TU LE PEUX !!! TOI QUI ES LIBRE, PEU IMPORTE OÙ TU IRAS SERA LÀ OÙ TU DOIS ALLER !!!"
+                            Ces paroles résonnent dans votre tête, comme les premiers pas lourds d'un géant se réveillant dans un hangar vide dans lequel son sommeil l'emprisonnait.
+                            Il est temps de partir.
+                            Vous regardez une dernière fois cet oeil furieux dont les ornements vous terrifie et partez à toute vitesse. //Insérer animation de mouvement rapide into tomber dans le trou
+                    -> "Un humain bien sûr !!!" 
+                        Étrange créature: "HAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHHA"
+                        Ce rire, encore. Il résonne dans votre tête, ricochant sur chacune des parois de votre crâne.
+                        Vous vous sentez de plus en plus léger, et vide.
+                        Votre vision s'amoindrit. //L'écran se noircit
+                        ...
+                        Au loin vous entendez ce qui semble être des pleurs étouffés et des cris.
+                        ?: "A..r..ê.. d... v..u. ..at..r.."
+                        ?: "P...a t.. ..ui fa...t mal
+                        " . . . "
+                        Ce sentiment de profonde tristesse vous assaille de nouveau.
+                        Vous regrettez quelque chose, mais vous n'arrivez pas à savoir quoi.
+                        .
+                        ..
+                        ...
+                        Un bruit strident écorche vos tympans. //Écran redevient progressivement normal
+                        L'odeur de brûlé qui règne vous rappelle où vous êtes.
+                        Étrange créature: "TU VAS TE FAIRE ABSORBER TOI AUSSI !!!"
+                        Vous distinguez un air de détresse mêlé à de la menace dans l'oeil de votre interlocuteur.
+                        Étrange créature: "PARS TANT QUE TU LE PEUX ! JE SAIS QUE TU ES LIBRE !"
+                        "Libre... ?"
+                        Vous avez du mal à rapporter ce mot à votre situation.
+                        Étrange créature: "JE SUIS COINCÉ ICI. JE ME SUIS FAIT ATTRAPER ET DÉVORER PAR CET ENDROIT. TU VIENS DE QUELQUE PART D'AUTRE ALORS TU PEUX PARTIR !!!"
+                        Étrange créature: "FUIS !!!"
+                        Vous êtes confus par l'attitude de cette créature dont la nature ne cessera de vous échapper.
+                        L'aspect menaçant de ce conseil vous fait prendre conscience qu'il serait mieux de le suivre.
+                        Vous regardez une dernière fois cet oeil furieux dont les ornements vous terrifie et partez à toute vitesse. //Insérer animation de mouvement rapide into tomber dans le trou
         -> "Oui, tout va bien. Je suis juste un peu perdu."
             Étrange créature: "ET TU PENSES QUE JE SUIS QUOI MOI ? CHEZ MOI PEUT-ÊTRE ????"
             "Je n'en sais rien."
@@ -59,7 +114,20 @@ Vous sentez une odeur de soufre se mêlant à l'odeur des bûches calcinées.
                 À la place, votre interlocuteur émet ce qui semble être des murmures en comparaison à ce à quoi vous vous étiez habitué.
                 Étrange créature: "Je ne sais plus."
                 Étrange créature: "Mon environnement a totalement changé, brusquement."
+                Étrange créature: "Je viens d'ici, mais je pouvais naviguer dans l'espace. Maintenant, je suis coincé dans cette petite parcelle du monde, comme condamné à faire brûler ce qu'il y a autour de moi."
+                Étrange créature: "ET J'EN AI MARRE DE CONSTATER QUE LA LIBERTÉ S'EST ENVOLÉE EN MÊME TEMPS QUE TOUTES MES FACULTÉS."
+                Étrange créature: "LE CALME N'EST PLUS. MON MONDE SE RÉSUME À CE BOIS MISÉREUX ET À CETTE CONSTANTE ODEUR DE BRÛLÉ."
+                Étrange créature: "ALORS FUIS, AUSSI VITE QUE TU LE PUISSES ET QUE JE NE TE REVOIS JAMAIS!!!!"
+                Le changement d'humeur de l'être qui vous fait fasse vous rappelle votre première altercation qui aurait pu se finir d'une bien plus terrible manière.
+                Étrange créature: "TOI QUI EST LIBRE, FUIS!"
+                Vous prenez très au sérieux ce conseil répété aux allures de menace.
+                -> Vous partez. //Insérer animation de mouvement rapide into tomber dans le trou
 
     -> "JE VAIS OÙ JE VEUX ET C'EST PAS UNE PIEUVRE VOLANTE QUI VA ME DIRE CE QUE JE DOIS FAIRE!"
-
+        Étrange créature: "U-U-UNE P-PIEUVRE ???? V-V-VOLANTE ??????????"
+        Vous sentez que vous n'auriez peut-être pas dû dire ça...
+        Son unique oeil tremble de rage. Vous êtes pétrifié.
+        D'un coup, celui-ci s'ouvre pleinement et, en dirigeant ses tentacules vers vous, la créature fonce droit sur vous.
+        Étrange créature: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        Vous fuiez le plus rapidement possible sans regarder derrière vous. //Insérer animation de mouvement rapide into tomber dans le trou
 ===
